@@ -87,3 +87,6 @@ for i in range(40,70):
 
 # 关闭浏览器
 driver.quit()
+
+# 关闭webdriver进程
+service.stop()
