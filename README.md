@@ -8,3 +8,8 @@ driver_path = 'C:/Users/XXXXXXXXX/AppData/Roaming/Microsoft/Windows/Start Menu/P
 
 # 设置用户配置文件路径
 user_data_dir = 'C:\\Users\\XXXXXXXXX\\AppData\\Local\\Microsoft\\Edge\\User Data\\Default'  # 将"path_to_user_data"替换为用户配置文件的实际路径。这些路径指定 Edge WebDriver 可执行文件的位置和浏览器配置文件的用户数据目录。替换XXXXXXXXX！
+windows中bat运行python脚本
+@echo off
+C:
+cd C:\Users\komst\AppData\Local\Programs\Python\Python310\Scripts   #环境变量路径
+python C:\Users\komst\Desktop\最终版\edge_rewards.py                #执行文件路径
